@@ -2,16 +2,16 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float EPQB_a,EPQB_b;
+	cout<<"ingrese EPQB_a EPQB_b:"; cin>>EPQB_a>>EPQB_b;
+	if(EPQB_a>EPQB_b)
 	{
-	cout<<a<<" es mayor a "<<b<<endl;
+	cout<<EPQB_a<<" es mayor EPQB_a "<<EPQB_b<<endl;
 
 
 	}else{
 
-	cout<<b<<" es mayor a "<<a<<endl;
+	cout<<EPQB_b<<" es mayor EPQB_a "<<EPQB_a<<endl;
 
 
 	}
