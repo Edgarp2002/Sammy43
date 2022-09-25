@@ -1,11 +1,17 @@
-utilizando el espacio de  nombres  estándar ;
-int  principal ()
+#include<iostream>
+using namespace std;
+
+int main()
 {
-	flotante  x,y,z ;
-	cout<< " Ingreso dos numeros separados de espacio xy:  " ;
-	cin>> x>>y ;
-	z=x+y ;
-	cout<< " El resultado es: " ;
-	cout<< z<<endl ;
-	devolver  0 ;
+
+	 float x,y,z;
+	 cout<<"Ingrese 2 numero x y :";
+	 cin>>x>>y;
+	 z=x+y;
+	 cout<<"El resutado es : ";
+	 cout<<z<<endl;
+
+	 return 0;
+
 }
+
