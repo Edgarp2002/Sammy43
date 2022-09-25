@@ -9,8 +9,5 @@ int main()
 	v=d/t;
 	cout<<"La velocidad calculada es de v= "<<t<<endl<<endl;
 	return 0;
-
-
-
 }
 
