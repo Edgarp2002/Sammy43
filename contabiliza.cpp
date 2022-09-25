@@ -4,17 +4,17 @@ using namespace std;
 int main()
 {
 
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int EPQB_i=0,EPQB_l;
+	float EPQB_x,EPQB_s=0;
+	cout<<"ingrese el limite EPQB_l="; cin>>EPQB_l;
 	do{
 
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero EPQB_x="; cin>>EPQB_x;
+	EPQB_i=EPQB_i+1;
+	EPQB_s=EPQB_s+EPQB_x;
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(EPQB_i<EPQB_l);
+	cout<<"Se ingresaron "<<EPQB_l<<" numeros "<< "que sumaron "<<EPQB_s<<endl;
 	return 0;
 
 
